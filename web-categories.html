@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- All fonts link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fonts.css">
+
+<!-- All css file link here -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+
+    <title>Web UX Copy Categories</title>
+</head>
+<body>
+<!-- ============ Header Start Here ============== -->
+    <header class="w-100 header-area">
+        <div class="top-menubar px-3 px-md-4 d-flex d-block align-items-center justify-content-between">
+            <div class="logo">
+                <a class="text-white" href="#"><span>C</span></a>
+            </div>
+            <button class="mobile-menubar d-inline-block d-md-none" onclick="mobileSidebarOpen()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="top-alert alert d-flex justify-content-between align-items-center fade show py-2 px-4 mb-0 rounded-0 position-absolute w-100 border-0" role="alert">
+            <p class="mb-0 d-flex align-items-center"><strong class="me-2">Tip:</strong>The best thing when creating a landing page is to</p>
+            <button type="button" class="btn p-0 border-0 ms-2" data-bs-dismiss="alert" aria-label="Close"><i class="fa-regular fa-x"></i></button>
+        </div>
+    </header>
+
+<!-- ============ Sidebar Start Here ============== -->
+    <main class="body-area">
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+                <div class="col-auto px-0">
+                    <div class="sidebar-area px-md-4 d-md-flex flex-md-column">
+
+                        <div id="mobileNav" class="sidebar-menus mb-md-auto d-md-flex flex-md-column">
+                            <div class="mobile-menu-logo logo d-md-none">
+                                <a class="text-white" href="#"><span>C</span></a>
+                            </div>
+                            <a class="fs-6 fw-bold mx-lg-4 mx-md-3" href="#"><span><i class="fa-regular fa-folder"></i></span>Dashboard</a>
+
+                            <hr class="mx-lg-4 mx-md-3">
+
+                            <div class="sidemenu">
+                                <p class="mx-lg-4 mx-md-3 mb-2">Browse</p>
+                                <ul class="mx-lg-2">
+                                    <li><a href="#"><span><i class="fa-regular fa-file-lines"></i></span>Web</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-lightbulb-on"></i></span>Email</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-folder"></i></span>Adverstising</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-lightbulb-on"></i></span>Articles</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-box-archive"></i></span>Brand</a></li>
+                                </ul>
+                            </div>
+
+                            <hr class="mx-lg-4 mx-md-3">
+
+                            <div class="secondary-sidemenu-1 mb-md-auto mx-lg-4 mx-md-3">
+                                <ul>
+                                    <li><a href="#">Your Lists</a></li>
+                                    <li><a href="#">Your Favorites</a></li>
+                                    <li><a href="#">Learn <span>New</span></a></li>
+                                </ul>
+                            </div>
+
+                            <hr class="mx-lg-4 mx-md-3 d-md-none">
+
+                            <div class="secondary-sidemenu-2 mx-lg-4 mx-md-3">
+                                <ul>
+                                    <li><a href="#"><span><i class="fa-regular fa-gear"></i></span>Account Settings</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-circle-question"></i></span>Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="wanna-upgrade my-4 text-white rounded-2 d-none d-md-block">
+                            <h4>wanna upgrade?</h4>
+                            <p class="mb-0">Learn More<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></p>
+                        </a>
+
+                        <div class="mobile-bottom-menubar mb-md-3 d-flex align-items-center justify-content-between d-md-block mx-lg-3 mx-md-2">
+                            <div class="user-dropdown">
+                                <a href="#" class="user-icon d-flex align-items-center px-md-3 py-md-2" onclick="userIcon()">
+                                    <img src="./img/user-icon.png" alt="hugenerd" width="30" height="30" class="rounded-circle me-2">
+                                    <p class="mb-0 d-none d-md-inline-block me-md-auto fw-bold">
+                                        Michael J.
+                                        <span class="d-block fw-normal lh-1">Admin</span>
+                                    </p>
+                                    <span class="fs-4 ms-1"><i class="fa-regular fa-ellipsis-vertical"></i></span>
+                                </a>
+                                <ul class="dropdown-menu text-small f-14 user-dropdown-menu">
+                                    <li>
+                                        <div class="mobile-menu-logo logo d-md-none">
+                                            <a class="text-white" href="#"><span>C</span></a>
+                                        </div>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Billing</a></li>
+                                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                                </ul>
+                            </div>
+                            <a class="d-inline-block d-md-none wanna-upgrade-mobile fw-bold" href="#">wanna upgrade?</a>
+                            <button class="bottom-menubar d-inline-block d-md-none" onclick="mobileSidebarOpen()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ============ Main Contents Start Here ============== -->
+                <div class="col px-0 main-content-bg">
+                    <div class="main-content-area">
+                        <div class="container">
+                            <div class="web-category-area">
+                                <h2 class="display-5 mb-4 fw-bold lh-1">Web UX Copy Categories</h2>
+                                <p class="fs-6 mb-lg-5 mb-4">A good headline is able to convey quickly and easily a businesses core offering and big idea simply. We’ve tried to include ones we approve of. </p>
+                                <div class="row g-3">
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Email Subject Lines</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Email Subject Lines</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Blog Outline Briefs</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Email Subject Lines</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Web Copy</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Newsletter Opt-in Copy</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Google Ads</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Sentance Openers</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Sample Brand Template</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Call to Actions</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">About Us</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                        <div class="single-category bg-white rounded-2 p-4 h-100">
+                                            <h6 class="fw-bold mb-2">Blog Titles</h6>
+                                            <p class="mb-0">Email marketing sequence for a sales funnel</p>
+                                            <a href="./web-ux-copy.html">See all<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+<!-- All js file link here -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b37fa64d0.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

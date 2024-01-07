@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- All fonts link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fonts.css">
+
+<!-- All css file link here -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+
+    <title>Web UX Copy Categories</title>
+</head>
+<body>
+<!-- ============ Header Start Here ============== -->
+    <header class="w-100 header-area">
+        <div class="top-menubar px-3 px-md-4 d-flex align-items-center">
+            <div class="logo">
+                <a class="text-white" href="#"><span>C</span></a>
+            </div>
+            <a class="back-to-web d-inline-block text-white fw-bold" href="./web-categories.html">
+                <span class="me-2"><i class="fa-solid fa-arrow-left-long"></i></span>Back to Web
+            </a>
+        </div>
+        <div class="top-alert alert d-flex justify-content-between align-items-center fade show py-2 px-4 mb-0 rounded-0 position-absolute w-100 border-0" role="alert">
+            <p class="mb-0 d-flex align-items-center"><strong class="me-2">Tip:</strong>The best thing when creating a landing page is to</p>
+            <button type="button" class="btn p-0 border-0 ms-2" data-bs-dismiss="alert" aria-label="Close"><i class="fa-regular fa-x"></i></button>
+        </div>
+    </header>
+
+<!-- ============ Sidebar Start Here ============== -->
+    <main class="body-area">
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+                <div class="col-auto px-0">
+                    <div class="sidebar-area px-md-4 d-md-flex flex-md-column">
+
+                        <div id="mobileNav" class="sidebar-menus mb-md-auto d-md-flex flex-md-column">
+                            <div class="mobile-menu-logo logo d-md-none">
+                                <a class="text-white" href="#"><span>C</span></a>
+                            </div>
+                            <a class="fs-6 fw-bold mx-lg-4 mx-md-3" href="#"><span><i class="fa-regular fa-folder"></i></span>Dashboard</a>
+
+                            <hr class="mx-lg-4 mx-md-3">
+
+                            <div class="sidemenu">
+                                <p class="mx-lg-4 mx-md-3 mb-2">Browse</p>
+                                <ul class="mx-lg-2">
+                                    <li><a href="#"><span><i class="fa-regular fa-file-lines"></i></span>Web</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-lightbulb-on"></i></span>Email</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-folder"></i></span>Adverstising</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-lightbulb-on"></i></span>Articles</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-box-archive"></i></span>Brand</a></li>
+                                </ul>
+                            </div>
+
+                            <hr class="mx-lg-4 mx-md-3">
+
+                            <div class="secondary-sidemenu-1 mb-md-auto mx-lg-4 mx-md-3">
+                                <ul>
+                                    <li><a href="#">Your Lists</a></li>
+                                    <li><a href="#">Your Favorites</a></li>
+                                    <li><a href="#">Learn <span>New</span></a></li>
+                                </ul>
+                            </div>
+
+                            <hr class="mx-lg-4 mx-md-3 d-md-none">
+
+                            <div class="secondary-sidemenu-2 mx-lg-4 mx-md-3">
+                                <ul>
+                                    <li><a href="#"><span><i class="fa-regular fa-gear"></i></span>Account Settings</a></li>
+                                    <li><a href="#"><span><i class="fa-regular fa-circle-question"></i></span>Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="wanna-upgrade my-4 text-white rounded-2 d-none d-md-block">
+                            <h4>wanna upgrade?</h4>
+                            <p class="mb-0">Learn More<span class="ms-2"><i class="fa-regular fa-arrow-right-long"></i></span></p>
+                        </a>
+
+                        <div class="mobile-bottom-menubar mb-md-3 d-flex align-items-center justify-content-between d-md-block mx-lg-3 mx-md-2">
+                            <div class="user-dropdown">
+                                <a href="#" class="user-icon d-flex align-items-center px-md-3 py-md-2" onclick="userIcon()">
+                                    <img src="./img/user-icon.png" alt="hugenerd" width="30" height="30" class="rounded-circle me-2">
+                                    <p class="mb-0 d-none d-md-inline-block me-md-auto fw-bold">
+                                        Michael J.
+                                        <span class="d-block fw-normal lh-1">Admin</span>
+                                    </p>
+                                    <span class="fs-4 ms-1"><i class="fa-regular fa-ellipsis-vertical"></i></span>
+                                </a>
+                                <ul class="dropdown-menu text-small f-14 user-dropdown-menu">
+                                    <li>
+                                        <div class="mobile-menu-logo logo d-md-none">
+                                            <a class="text-white" href="#"><span>C</span></a>
+                                        </div>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Billing</a></li>
+                                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                                </ul>
+                            </div>
+                            <a class="d-inline-block d-md-none wanna-upgrade-mobile fw-bold" href="#">wanna upgrade?</a>
+                            <button class="bottom-menubar d-inline-block d-md-none" onclick="mobileSidebarOpen()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ============ Main Contents Start Here ============== -->
+                <div class="col px-0 main-content-bg">
+                    <div class="main-content-area">
+                        <div class="container">
+                            <div class="web-copy-category-area">
+                                <h2 class="display-5 mb-4 fw-bold lh-1">Web UX Copy Hero Headlines</h2>
+                                <p class="fs-6 mb-lg-5 mb-4">A good headline is able to convey quickly and easily a businesses core offering and big idea simply. We’ve tried to include ones we approve of.</p>
+
+                                <div class="row g-3">
+
+
+                                    <div class="col-lg-6 col-xxl-4">
+                                        <div class="single-headline bg-white rounded-2">
+                                            <a href="#">www.wereere.com</a>
+                                            <h4 class="">Your taxes, your way</h4>
+                                            <h5>Get the best advice you can before—tax day is too late.</h5>
+                                            <p>We believe those who challenge themselves to be exceptional should champion that spirit in others. And that doing the right thing is rarely easy, but always worth it.</p>
+                                            <div class="button-group position-absolute bottom-0 text-center w-100 start-0">
+                                                <a class="text-white fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#modal1"><span class="me-2 fs-5"><i class="fa-regular fa-circle-plus"></i></span>Add to list</a>
+                                                <a class="text-white fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#modal2"><span class="me-2 fs-5"><i class="fa-regular fa-arrow-up-right"></i></span>Expand Card</a>
+                                            </div>
+                                    <!--1st Modal -->
+                                            <div class="modal popup-modal fade" id="modal1">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <button class="dismis-btn" data-bs-dismiss="modal"><span><i class="fa-regular fa-x"></i></span></button>
+                                                        <div class="pop-up-type-1">
+                                                            <div class="pop-up-header">
+                                                                <h6 class="fw-bold text-uppercase">ADD</h6>
+                                                                <h4 class="mb-2">Select a list</h4>
+                                                                <p class="mb-0">Adding and creating lists will keep your copy better organized. <a href="#">Create a new list</a> or add to an exsisting list below. </p>
+                                                            </div>
+                                                            <div class="pop-up-select-list">
+                                                                <span class="fw-bold text-uppercase mb-1">EDITORS</span>
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Sun Pixel Landing Page Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>2022 Black Friday Launch</p>
+                                                                                <a href="#" class="checked"><span><i class="fa-light fa-circle-check"></i></span></a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Direct Design Headline Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Onboarding Email Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="close-new-buttons d-md-flex text-center justify-content-between">
+                                                                <a href="#" class="close-btn" data-bs-dismiss="modal">Close</a>
+                                                                <a href="#" class="create-btn">Create New List</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                    <!--2nd Modal -->
+                                            <div class="modal popup-modal fade" id="modal2">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <button class="dismis-btn" data-bs-dismiss="modal"><span><i class="fa-regular fa-x"></i></span></button>
+                                                        <div class="pop-up-type-2">
+                                                            <div class="popup-content">
+
+                                                    <!-- Pop Up Content Start here -->
+                                                                <div class="single-headline p-0">
+                                                                    <a href="#">www.wereere.com</a>
+                                                                    <h4>Your taxes, your way</h4>
+                                                                    <h5>Get the best advice you can before—tax day is too late.</h5>
+                                                                    <p>We believe those who challenge themselves to be exceptional should champion that spirit in others. And that doing the right thing is rarely easy, but always worth it. <br><br> We believe those who challenge themselves to be exceptional should champion that spirit in others. And that doing the right thing is rarely easy, but always worth it. <br><br>We believe those who challenge themselves to be exceptional should champion that spirit in others. And that doing the right thing is rarely easy, but always worth it.</p>
+                                                                </div>
+                                                    <!-- Pop Up Content end here -->
+                                                    
+                                                            </div>
+                                                            <div class="pop-up-tags p-4 px-md-5">
+                                                                <div class="row gx-2">
+                                                                    <div class="col-auto">
+                                                                        <p class="mb-0">Tags:</p>
+                                                                    </div>
+                                                                    <div class="col">
+                                                            <!-- Pop Up Tags -->
+                                                                        <a href="#">Ecommerce Order Confirmation</a>
+                                                                        <a href="#">Onboarding </a>
+                                                                        <a href="#">Missed Demo</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="pop-up-btn-group">
+                                                                <a href="#"><i class="fa-light fa-circle-plus"></i></a>
+                                                                <a href="#"><i class="fa-light fa-angle-right"></i><span class="d-none d-md-block" style="font-size: 12px; line-height: 5px;">Next</span></a>
+                                                                <a href="#"><i class="fa-light fa-angle-left"></i><span class="d-none d-md-block" style="font-size: 12px; line-height: 5px;">Previous</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                    <!-- Modal Content End Here -->
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-6 col-xxl-4">
+                                        <div class="single-headline bg-white rounded-2">
+                                            <a href="#">www.klarn.com</a>
+                                            <h6 class="fw-bold mb-2">Newsletter Sign Up</h6>
+                                            <h4>We don’t have a job for you. We have a career with a life.</h4>
+                                            <p>Because Klarna isn’t made up of jobs. It’s made up of people. People who want to unlock their potential. Bold people. Curious. Open. Quirky. Optimistic. People who want more than a job.</p>
+                                            <div class="button-group position-absolute bottom-0 text-center w-100 start-0">
+                                                <a class="text-white fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#modal3"><span class="me-2 fs-5"><i class="fa-regular fa-circle-plus"></i></span>Add to list</a>
+                                                <a class="text-white fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#modal4"><span class="me-2 fs-5"><i class="fa-regular fa-arrow-up-right"></i></span>Expand Card</a>
+                                            </div>
+                                <!--3rd Modal -->
+                                            <div class="modal popup-modal fade" id="modal3">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <button class="dismis-btn" data-bs-dismiss="modal"><span><i class="fa-regular fa-x"></i></span></button>
+                                                        <div class="pop-up-type-1">
+                                                            <div class="pop-up-header">
+                                                                <h6 class="fw-bold text-uppercase">ADD</h6>
+                                                                <h4 class="mb-2">Select a list</h4>
+                                                                <p class="mb-0">Adding and creating lists will keep your copy better organized. <a href="#">Create a new list</a> or add to an exsisting list below. </p>
+                                                            </div>
+                                                            <div class="pop-up-select-list">
+                                                                <span class="fw-bold text-uppercase mb-1">EDITORS</span>
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Sun Pixel Landing Page Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>2022 Black Friday Launch</p>
+                                                                                <a href="#" class="checked"><span><i class="fa-light fa-circle-check"></i></span></a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Direct Design Headline Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Onboarding Email Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="close-new-buttons d-md-flex text-center justify-content-between">
+                                                                <a href="#" class="close-btn" data-bs-dismiss="modal">Close</a>
+                                                                <a href="#" class="create-btn">Create New List</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                <!--4th Modal -->
+                                            <div class="modal popup-modal fade" id="modal4">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <button class="dismis-btn" data-bs-dismiss="modal"><span><i class="fa-regular fa-x"></i></span></button>
+                                                        <div class="pop-up-type-2">
+                                                            <div class="popup-content">
+                                                <!-- Pop Up Content Start here -->
+                                                                <div class="single-headline p-0">
+                                                                    <a href="#">www.klarn.com</a>
+                                                                    <h6 class="fw-bold mb-2">Newsletter Sign Up</h6>
+                                                                    <h4>We don’t have a job for you. We have a career with a life.</h4>
+                                                                    <p>Because Klarna isn’t made up of jobs. It’s made up of people. People who want to unlock their potential. Bold people. Curious. Open. Quirky. Optimistic. People who want more than a job.</p>
+                                                                </div>
+                                                <!-- Pop Up Content end here -->
+                                                            </div>
+                                                            <div class="pop-up-tags p-4">
+                                                                <div class="row gx-2">
+                                                                    <div class="col-auto">
+                                                                        <p class="mb-0">Tags:</p>
+                                                                    </div>
+                                                                    <div class="col">
+                                                            <!-- Pop Up Tags -->
+                                                                        <a href="#">Ecommerce Order Confirmation</a>
+                                                                        <a href="#">Onboarding </a>
+                                                                        <a href="#">Missed Demo</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="pop-up-btn-group">
+                                                                <a href="#"><i class="fa-light fa-circle-plus"></i></a>
+                                                                <a href="#"><i class="fa-light fa-angle-right"></i><span class="d-none d-md-block" style="font-size: 12px; line-height: 5px;">Next</span></a>
+                                                                <a href="#"><i class="fa-light fa-angle-left"></i><span class="d-none d-md-block" style="font-size: 12px; line-height: 5px;">Previous</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                    <!-- Modal Content End Here -->
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-lg-6 col-xxl-4">
+                                        <div class="single-headline bg-white rounded-2">
+                                            <a href="#">Open Source Template</a>
+                                            <h4>Take the irregular career path for growth.</h4>
+                                            <p>Here at [company name] we might have fixed titles, but our actions are subject to change. Even our mission is changeable.</p>
+                                            <a href="#" class="learn-more">Learn More</a>
+                                            <div class="button-group position-absolute bottom-0 text-center w-100 start-0">
+                                                <a class="text-white fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#modal5"><span class="me-2 fs-5"><i class="fa-regular fa-circle-plus"></i></span>Add to list</a>
+                                                <a class="text-white fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#modal6"><span class="me-2 fs-5"><i class="fa-regular fa-arrow-up-right"></i></span>Expand Card</a>
+                                            </div>
+                                    <!--5th Modal -->
+                                            <div class="modal popup-modal fade" id="modal5">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <button class="dismis-btn" data-bs-dismiss="modal"><span><i class="fa-regular fa-x"></i></span></button>
+                                                        <div class="pop-up-type-1">
+                                                            <div class="pop-up-header">
+                                                                <h6 class="fw-bold text-uppercase">ADD</h6>
+                                                                <h4 class="mb-2">Select a list</h4>
+                                                                <p class="mb-0">Adding and creating lists will keep your copy better organized. <a href="#">Create a new list</a> or add to an exsisting list below. </p>
+                                                            </div>
+                                                            <div class="pop-up-select-list">
+                                                                <span class="fw-bold text-uppercase mb-1">EDITORS</span>
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Sun Pixel Landing Page Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>2022 Black Friday Launch</p>
+                                                                                <a href="#" class="checked"><span><i class="fa-light fa-circle-check"></i></span></a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Direct Design Headline Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                                <p>Onboarding Email Ideas</p>
+                                                                                <a href="#">ADD</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="close-new-buttons d-md-flex text-center justify-content-between">
+                                                                <a href="#" class="close-btn" data-bs-dismiss="modal">Close</a>
+                                                                <a href="#" class="create-btn">Create New List</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    <!--6th Modal -->
+                                            <div class="modal popup-modal fade" id="modal6">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <button class="dismis-btn" data-bs-dismiss="modal"><span><i class="fa-regular fa-x"></i></span></button>
+                                                        <div class="pop-up-type-2">
+                                                            <div class="popup-content">
+                                                    <!-- Pop Up Content Start here -->
+                                                                <div class="single-headline p-0">
+                                                                    <a href="#">Open Source Template</a>
+                                                                    <h4>Take the irregular career path for growth.</h4>
+                                                                    <p>Here at [company name] we might have fixed titles, but our actions are subject to change. Even our mission is changeable.</p>
+                                                                    <a href="#" class="learn-more">Learn More</a>
+                                                                </div>
+                                                    <!-- Pop Up Content end here -->
+                                                            </div>
+                                                            <div class="pop-up-tags p-4">
+                                                                <div class="row gx-2">
+                                                                    <div class="col-auto">
+                                                                        <p class="mb-0">Tags:</p>
+                                                                    </div>
+                                                                    <div class="col">
+                                                            <!-- Pop Up Tags -->
+                                                                        <a href="#">Ecommerce Order Confirmation</a>
+                                                                        <a href="#">Onboarding </a>
+                                                                        <a href="#">Missed Demo</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="pop-up-btn-group">
+                                                                <a href="#"><i class="fa-light fa-circle-plus"></i></a>
+                                                                <a href="#"><i class="fa-light fa-angle-right"></i><span class="d-none d-md-block" style="font-size: 12px; line-height: 5px;">Next</span></a>
+                                                                <a href="#"><i class="fa-light fa-angle-left"></i><span class="d-none d-md-block" style="font-size: 12px; line-height: 5px;">Previous</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    <!-- Modal End Here -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+<!-- All js file link here -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b37fa64d0.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

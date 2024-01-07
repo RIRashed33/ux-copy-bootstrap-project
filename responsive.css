@@ -1,0 +1,237 @@
+@media screen and (min-width:768px){
+    a.back-to-web {
+        margin-left: 60px;
+   }
+    .single-category a, .single-headline .button-group {
+        display: none;
+   }
+    .single-category:hover a, .single-headline:hover .button-group {
+        display: inline-block;
+   }
+    .single-category:hover, .single-headline:hover{
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+   }
+    .popup-content > *:hover{
+        box-shadow: none;
+   }
+    .popup-content {
+        margin: 0 75px 0 0;
+        padding-left: 90px !important;
+        padding-right: 90px !important;
+   }
+    .pop-up-btn-group {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        padding-top: 120px;
+        height: 100%;
+        width: 75px;
+        border-left: 1px solid var(--eee-color);
+   }
+    .pop-up-btn-group a {
+        display: block;
+        border: none;
+   }
+    .pop-up-header p{
+        font-size: 16px;
+        max-width: 480px;
+   }
+    .pop-up-type-1 {
+        padding: 60px 70px;
+   }
+}
+@media screen and (min-width:768px) and (min-height: 880px){
+    .sidebar-menus{
+        height: 100%;
+   }
+}
+@media screen and (max-width:991px) {
+    .sidebar-area{
+        width: 250px;
+   }
+    a.wanna-upgrade {
+        margin-right: 9px;
+        margin-left: 9px;
+   }
+}
+/* =========================================== Sidebar Area Starts Here ============================================= */
+@media screen and (max-width:767px) {
+    h2 {
+        font-size: 36px;
+   }
+    .logo a{
+        line-height: 1.3;
+   }
+    .top-menubar{
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+   }
+    .bottom-menubar, .mobile-menubar{
+        border: none;
+        background: transparent;
+        width: 40px;
+        display: block;
+        height: 30px;
+   }
+    .bottom-menubar span, .mobile-menubar span{
+        width: 100%;
+        display: block;
+        height: 2px;
+        margin-bottom: 7px;
+        border-radius: 5px;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+   }
+    .bottom-menubar span:last-child, .mobile-menubar span:last-child{
+        margin-bottom: inherit;
+   }
+    body.open-sidebar .bottom-menubar span:first-child, body.user-dropdown-open .bottom-menubar span:first-child {
+        margin-bottom: -2px;
+        -webkit-transform: rotate(50deg);
+        transform: rotate(50deg);
+   }
+    body.open-sidebar .bottom-menubar span:nth-child(2), body.user-dropdown-open .bottom-menubar span:nth-child(2){
+        margin-bottom: 0;
+        -webkit-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+   }
+    body.open-sidebar .bottom-menubar span:last-child, body.user-dropdown-open .bottom-menubar span:last-child{
+        display: none;
+   }
+    .mobile-menubar span{
+        background-color: var(--white-color);
+   }
+    .bottom-menubar span{
+        background-color: var(--main-color);
+   }
+    .sidebar-area {
+        height: inherit;
+        padding: inherit;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+   }
+    .mobile-bottom-menubar {
+        background-color: var(--color-3);
+        padding: 10px 15px;
+   }
+    .sidebar-menus {
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: var(--color-3);
+        width: calc(100% - 20px);
+        height: calc(100vh - 51px);
+        border-bottom: 1px solid var(--main-color);
+        position: absolute;
+        bottom: 51px;
+        left: -100%;
+        padding: 50px 20px 20px;
+        text-align: end;
+        overflow-y: auto;
+        box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.15);
+   }
+    body.open-sidebar .sidebar-menus {
+        left: 21px;
+   }
+    .secondary-sidemenu-1 ul > li > a{
+        display: inline-block;
+   }
+    .secondary-sidemenu-1 ul > li > a span{
+        display: none;
+   }
+    .sidemenu ul > li > a {
+        padding: 8px 0;
+   }
+    .sidemenu ul > li > a, .sidebar-menus a, .secondary-sidemenu-2 ul > li > a{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+   }
+    .sidemenu ul > li > a > span, .sidebar-menus > a > span, .secondary-sidemenu-2 ul > li > a > span{
+        margin-right: inherit;
+        margin-left: 10px;
+   }
+    .sidebar-menus hr {
+        border-color: var(--main-color);
+        width: 60%;
+        margin-left: auto;
+   }
+    .mobile-menu-logo {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        z-index: 99 !important;
+        display: none;
+   }
+    body.open-sidebar .mobile-menu-logo, body.user-dropdown-open .mobile-menu-logo{
+        display: block;
+   }
+    .mobile-menu-logo a span{
+        font-size: 48px;
+        color: var(--main-color);
+   }
+    .sidebar-menus .sidemenu ul > li > a:hover {
+        background-color: inherit;
+   }
+    a.user-icon{
+        border: none;
+   }
+    a.wanna-upgrade-mobile{
+        font-size: 18px;
+        font-family: var(--quincy-cf);
+        color: var(--main-color);
+   }
+    .mobile-bottom-menubar .user-dropdown ul {
+        height: calc(100vh - 50px);
+        width: calc(100% - 20px);
+        bottom: 50px;
+        border: inherit;
+        border-radius: 0;
+        border-bottom: 1px solid var(--main-color);
+        background-color: var(--color-3);
+        padding: 50px 20px 20px;
+        text-align: end;
+        box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.15);
+   }
+    body.user-dropdown-open .mobile-bottom-menubar .user-dropdown ul{
+        left: 20px;
+   }
+    .mobile-bottom-menubar .user-dropdown ul li a{
+        padding: 8px 0;
+   }
+    .mobile-bottom-menubar .user-dropdown ul li a:hover{
+        background-color: transparent;
+   }
+   /* =========================================== Main Content Area Starts Here ============================================= */
+    .main-content-area {
+        min-height: 100vh;
+        padding-top: 130px;
+   }
+    .single-headline {
+        padding: 28px 28px 60px;
+   }
+    .popup-modal .modal-dialog {
+        margin: 8px 20px;
+   }
+    .pop-up-select-list {
+        max-height: 260px;
+        border-top: 1px solid var(--eee-color);
+        border-bottom: 1px solid var(--eee-color);
+   }
+    .close-new-buttons a.create-btn{
+        margin-top: 10px;
+   }
+    .pop-up-type-1 {
+        padding-top: 58px;
+   }
+    .pop-up-header {
+        border-top: 1px solid var(--eee-color);
+   }
+}
